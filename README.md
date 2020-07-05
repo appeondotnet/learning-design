@@ -4,6 +4,10 @@ Head First 设计模式学习笔记。
 ## 目录
 [策略模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Strategy)
 
+## 精神
+* 系统中某部分改变不会影响其他部分
+* 使用共享词汇能让更少的词汇做更充分的沟通
+
 ## 原则
 * 封装变化。
     - 找出应用中可能需要变化之处，把他们独立出来，不要和那些不需要变化得代码混在一起；
