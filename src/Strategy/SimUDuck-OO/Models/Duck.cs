@@ -18,6 +18,11 @@ namespace SimUDuck.Models
             Console.WriteLine("Duck: Swim.");
         }
 
+        public void Fly()
+        {
+            Console.WriteLine("Duck: Fly.");
+        }
+
         public abstract void Display();
     }
 }
