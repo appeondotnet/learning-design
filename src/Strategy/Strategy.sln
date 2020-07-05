@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck-OO", "SimUDuck-OO\SimUDuck-OO.csproj", "{E395B434-FED9-4109-9626-3F766B50F88B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck-Strategy", "SimUDuck-Strategy\SimUDuck-Strategy.csproj", "{0A4B4720-8AD4-4884-AC9D-1E302CA131AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E395B434-FED9-4109-9626-3F766B50F88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E395B434-FED9-4109-9626-3F766B50F88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E395B434-FED9-4109-9626-3F766B50F88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4B4720-8AD4-4884-AC9D-1E302CA131AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4B4720-8AD4-4884-AC9D-1E302CA131AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4B4720-8AD4-4884-AC9D-1E302CA131AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4B4720-8AD4-4884-AC9D-1E302CA131AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
