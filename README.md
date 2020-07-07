@@ -1,5 +1,16 @@
-# learning-design
-Head First 设计模式学习笔记
+# 单例模式
+使用场景：在项目中只需要实现一次的类，并且其他类都使用的时候都需要获取到这个类的同一个实例。
+例如语法服务器开启的时候需要初始化启动，之后在其他地方使用需要直接拿到这个已初始化的实例，而不能再次实例化一个新的实例。
+
+# 抽象工厂模式
+使用场景：系列化类型变化，而具体产品不变化的情况，例如案例中的游戏资源生成器。
+目前已有两种系列分别为：古典和现代。四种资源组件：建筑、隧道、草丛、道路。
+在这种情况下，如果需要增加一个新的系列“未来”，则只需要增加一个FutureFactory，然后继承FacilitiesFactory实现，在具体化实现未来系列的资源组件，而不会对其他系列产生任何影响。
+
+不适用场景：在本案例中，如果要增加一种资源组件，则整个项目都受到改动，需要新增资源接口，然后在抽象工厂需要定义，在具体工厂需要实现，并且需要新增加资源实例。
+
+总结：适合于系列或者风格变动的项目，但是具体的组件或者产品数量不发生改变的场景。
 
 ## 目录
-[codeping](https://github.com/appeondotnet/learning-design/tree/dudeping)
+[单例模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/SingletonPattern)
+[抽象工厂模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/AbstractFactoryPattern)
