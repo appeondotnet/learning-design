@@ -9,4 +9,6 @@ namespace Singleton
             Console.WriteLine("Hello World!");
         }
     }
+
+
 }
