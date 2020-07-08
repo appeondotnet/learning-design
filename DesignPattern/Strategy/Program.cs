@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Singleton
+namespace Strategy
 {
     class Program
     {
@@ -9,6 +9,4 @@ namespace Singleton
             Console.WriteLine("Hello World!");
         }
     }
-
-
 }
