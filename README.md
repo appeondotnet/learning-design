@@ -1,5 +1,7 @@
 # learning-design
 Head First 设计模式学习笔记
 
-## 目录
-[codeping](https://github.com/appeondotnet/learning-design/tree/dudeping)
+# 策略模式
+找出应用中可能需要变化之处，把它们独立出来，不要和那些不需要变化的代码混在一起。
+把会变化的部分取出来并封装起来，以便以后可以轻易的改动或此部分，而不影响不需要变化的其他部分。
+针对接口编程，不该过于关注实现。
