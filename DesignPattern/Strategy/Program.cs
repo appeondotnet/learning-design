@@ -6,7 +6,19 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Duck duck = new ZhouHeiDuck();
+
+            duck.Display();
+
+            IFlyBehavior behavior = new FlyWithWings();
+
+            duck.SetFlyBehavoir(behavior);
+
+            Console.WriteLine("Set fly feature.");
+
+            duck.PerformFly();
+
+            Console.Read();
         }
     }
 }
