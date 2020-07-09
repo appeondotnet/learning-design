@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="策略模式\" />
+    <Folder Include="策略模式\IBehavior\" />
+    <Folder Include="策略模式\Impl\" />
+  </ItemGroup>
+</Project>

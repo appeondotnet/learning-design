@@ -1,0 +1,11 @@
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/bin/Debug/netcoreapp3.1/DesignPartterns.deps.json
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/bin/Debug/netcoreapp3.1/DesignPartterns.runtimeconfig.json
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/bin/Debug/netcoreapp3.1/DesignPartterns.runtimeconfig.dev.json
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/bin/Debug/netcoreapp3.1/DesignPartterns.dll
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/bin/Debug/netcoreapp3.1/DesignPartterns.pdb
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/obj/Debug/netcoreapp3.1/DesignPartterns.AssemblyInfoInputs.cache
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/obj/Debug/netcoreapp3.1/DesignPartterns.AssemblyInfo.cs
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/obj/Debug/netcoreapp3.1/DesignPartterns.csproj.CoreCompileInputs.cache
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/obj/Debug/netcoreapp3.1/DesignPartterns.dll
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/obj/Debug/netcoreapp3.1/DesignPartterns.pdb
+/Users/wenyule/Projects/DesignPartterns/DesignPartterns/obj/Debug/netcoreapp3.1/DesignPartterns.genruntimeconfig.cache
