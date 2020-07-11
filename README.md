@@ -11,6 +11,14 @@
 
 总结：适合于系列或者风格变动的项目，但是具体的组件或者产品数量不发生改变的场景。
 
+# 设计原则
+1.封装变化。
+2.多用组合，少用继承。
+3.针对接口编程，不针对实现编程。
+4.为交互对象之间的松耦合设计而努力。
+5.类应该对扩展开放，对修改关闭。
+6.依赖抽象，而不依赖具体实现。
+
 ## 目录
 [单例模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/SingletonPattern)
 [抽象工厂模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/AbstractFactoryPattern)
