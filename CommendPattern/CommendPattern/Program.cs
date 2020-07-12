@@ -25,14 +25,22 @@ namespace CommandPattern
             remoteControl.SetCommand(1, kitchenRoomLightOn, kitchenRoomLightOff);
             remoteControl.SetCommand(2, stereoOnWithCD, stereoOffWithCD);
 
-            Console.WriteLine(remoteControl);
-
             remoteControl.OnButtonWasPushed(0);
             remoteControl.OffButtonWasPushed(0);
             remoteControl.OnButtonWasPushed(1);
             remoteControl.OffButtonWasPushed(1);
             remoteControl.OnButtonWasPushed(2);
+            remoteControl.OffButtonWasPushed(2);
+
+            Console.WriteLine("\r\n");
+
+            //Undo Command test
+            remoteControl.SetCommand(3, livingRoomLightOn, livingRoomLightOff);
+            remoteControl.OnButtonWasPushed(3);
             remoteControl.OffButtonWasPushed(3);
+            remoteControl.UndoButtonWasPushed();
+
+            Console.WriteLine(remoteControl);
         }
     }
 }

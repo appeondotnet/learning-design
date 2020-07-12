@@ -20,7 +20,12 @@ namespace CommandPattern
 
         public string GetName()
         {
-            throw new NotImplementedException();
+            return _garageDoor.GetName();
+        }
+
+        public void Undo()
+        {
+            _garageDoor.Stop();
         }
     }
 }

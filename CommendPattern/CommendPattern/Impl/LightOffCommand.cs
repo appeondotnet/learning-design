@@ -21,5 +21,10 @@ namespace CommandPattern
         {
             return _light.GetName();
         }
+
+        public void Undo()
+        {
+            _light.On();
+        }
     }
 }

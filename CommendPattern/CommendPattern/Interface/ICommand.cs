@@ -8,6 +8,6 @@ namespace CommandPattern
     {
         public void Execute();
 
-        public string GetName();
+        public void Undo();
     }
 }

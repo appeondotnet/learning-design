@@ -15,5 +15,10 @@ namespace CommandPattern
         {
             return "NoCommand";
         }
+
+        public void Undo()
+        {
+            
+        }
     }
 }

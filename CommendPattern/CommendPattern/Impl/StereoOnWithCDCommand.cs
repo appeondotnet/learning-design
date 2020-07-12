@@ -25,5 +25,10 @@ namespace CommandPattern
         {
             return _stereo.GetName();
         }
+
+        public void Undo()
+        {
+            _stereo.Off();
+        }
     }
 }
