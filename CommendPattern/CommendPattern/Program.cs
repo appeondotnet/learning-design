@@ -3,7 +3,7 @@ using System;
 
 namespace CommandPattern
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -34,13 +34,47 @@ namespace CommandPattern
 
             Console.WriteLine("\r\n");
 
-            //Undo Command test
+            //Undo Command Test
             remoteControl.SetCommand(3, livingRoomLightOn, livingRoomLightOff);
             remoteControl.OnButtonWasPushed(3);
             remoteControl.OffButtonWasPushed(3);
             remoteControl.UndoButtonWasPushed();
 
+            Console.WriteLine("\r\n");
+
+            //CeilingFan Command Test
+            CeilingFan ceilingFan = new CeilingFan("Living Room");
+            CeilingFanMediumCommand ceilingFanMedium = new CeilingFanMediumCommand(ceilingFan);
+            CeilingFanHighCommand ceilingFanHigh = new CeilingFanHighCommand(ceilingFan);
+            CeilingFanOffCommand ceilingFanOff = new CeilingFanOffCommand(ceilingFan);
+
+            remoteControl.SetCommand(4, ceilingFanMedium, ceilingFanOff);
+            remoteControl.SetCommand(5, ceilingFanHigh, ceilingFanOff);
+
+            remoteControl.OnButtonWasPushed(4);
+            remoteControl.OffButtonWasPushed(4);
+            remoteControl.UndoButtonWasPushed();
+            remoteControl.OnButtonWasPushed(5);
+            remoteControl.UndoButtonWasPushed();
+
+            Console.WriteLine("\r\n");
+
+            //MacroCommand Test
+            ICommand[] partyOn = { livingRoomLightOn, stereoOnWithCD, ceilingFanHigh };
+            ICommand[] partyOff = { livingRoomLightOff, stereoOffWithCD, ceilingFanOff };
+
+            MacroCommand partyOnMacro = new MacroCommand(partyOn);
+            MacroCommand partyOffMacro = new MacroCommand(partyOff);
+
+            remoteControl.SetCommand(6, partyOnMacro, partyOffMacro);
+            remoteControl.OnButtonWasPushed(6);
+            remoteControl.UndoButtonWasPushed();
+
+
             Console.WriteLine(remoteControl);
+
+
+
         }
     }
 }
