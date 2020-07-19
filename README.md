@@ -2,7 +2,8 @@
 Head First 设计模式学习笔记。
 
 ## 目录
-[策略模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Strategy)
+[策略模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Strategy)  
+[观察者模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Observer)
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
