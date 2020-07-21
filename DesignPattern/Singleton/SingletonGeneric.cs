@@ -1,0 +1,30 @@
+﻿using System;
+using System.Linq;
+using System.Reflection;
+
+namespace Singleton
+{
+    public abstract class SingletonGeneric<T>
+    {
+        private static readonly Lazy<T> _instance = new Lazy<T>(() =>
+        {
+            ConstructorInfo[] ctors = typeof(T).GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+
+            if (ctors.Count() != 1)
+            {
+                throw new InvalidOperationException(string.Format("Type {0} must have exactly one constructor.", typeof(T)));
+            }
+
+            ConstructorInfo ctor = ctors.SingleOrDefault(c => c.GetParameters().Count() == 0 && c.IsPrivate);
+
+            if (ctor == null)
+            {
+                throw new InvalidOperationException(string.Format("The constructor for {0} must be private and take no parameters.", typeof(T)));
+            }
+
+            return (T)ctor.Invoke(null);
+        });
+
+        public static T Instance => _instance.Value;
+    }
+}
