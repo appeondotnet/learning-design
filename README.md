@@ -65,5 +65,9 @@
 7.最少知道原则：只和你的密友谈话。(迪米特法则)
 
 ## 目录
-[单例模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/SingletonPattern)
-[抽象工厂模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/AbstractFactoryPattern)
+[单例模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/SingletonPattern)  
+[抽象工厂模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/AbstractFactoryPattern)  
+[适配器&外观模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/AdapterPattern)  
+[建造者模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/BuilderPattern)  
+[命令模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/CommendPattern)  
+[模板方法模式](https://github.com/appeondotnet/learning-design/tree/pengsongkun/TemplateMethodPattern)  
