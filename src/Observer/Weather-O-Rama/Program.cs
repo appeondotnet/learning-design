@@ -16,8 +16,6 @@ namespace Weather_O_Rama
             weatherData.SetMeasurements(78, 90, 29.2f);
 
             Console.ReadKey();
-
-            Observer
         }
     }
 }

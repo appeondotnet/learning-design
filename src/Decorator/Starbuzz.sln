@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30317.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbuzz", "Starbuzz\Starbuzz.csproj", "{15F685BD-5273-4252-96F2-E48B5428B80C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbuzz-Decorator", "Starbuzz-Decorator\Starbuzz-Decorator.csproj", "{22927B45-C011-4261-97B0-9365E4FE19C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15F685BD-5273-4252-96F2-E48B5428B80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F685BD-5273-4252-96F2-E48B5428B80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F685BD-5273-4252-96F2-E48B5428B80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F685BD-5273-4252-96F2-E48B5428B80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22927B45-C011-4261-97B0-9365E4FE19C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22927B45-C011-4261-97B0-9365E4FE19C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22927B45-C011-4261-97B0-9365E4FE19C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22927B45-C011-4261-97B0-9365E4FE19C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {098FD84B-EA45-460D-BFDF-86D488C46BF1}
+	EndGlobalSection
+EndGlobal
