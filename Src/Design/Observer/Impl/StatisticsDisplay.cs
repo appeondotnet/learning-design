@@ -7,6 +7,10 @@ namespace Observer
 {
     public class StatisticsDisplay : IObserver, IElementDisplay
     {
+        public StatisticsDisplay()
+        { 
+        }
+
         public StatisticsDisplay(IObservable observable)
         {
             observable.AddOberver(this);

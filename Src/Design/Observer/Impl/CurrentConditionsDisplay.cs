@@ -6,6 +6,10 @@ namespace Observer
 {
     public class CurrentConditionsDisplay : IObserver, IElementDisplay
     {
+        public CurrentConditionsDisplay()
+        { 
+        }
+
         public CurrentConditionsDisplay(IObservable observable)
         {
             observable.AddOberver(this);

@@ -6,6 +6,10 @@ namespace Observer
 {
     public class ForecastDisplay : IObserver, IElementDisplay
     {
+        public ForecastDisplay()
+        { 
+        }
+
         public ForecastDisplay(IObservable observable)
         {
             observable.AddOberver(this);
