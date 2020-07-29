@@ -1,0 +1,10 @@
+/obj/
+/bin/
+/.vs/
+/Src/Design/.vs/Design
+/Src/Design/Decorator/obj
+/Src/Design/Decorator/bin/Debug/netcoreapp3.1
+/Src/Design/Observer/obj
+/Src/Design/Observer/bin/Debug/netcoreapp3.1
+/Src/Design/Strategy/obj
+/Src/Design/Strategy/bin/Debug/netcoreapp3.1
