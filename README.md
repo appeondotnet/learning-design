@@ -16,10 +16,10 @@ Head First 设计模式学习笔记
 
 # 1 [Strategy (策略模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Strategy)  
 策略模式定义了算法族，对各个算法进行了封装，让它们可以相互交换，使算法的改变独立于调用的用户  
-# 2 Observer (观察者模式)  
+# 2 [Observer (观察者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Observer)  
 观察者模式定义了一对多的对象依赖关系，这样一来，如果一个对象的状态发生改变，其它依赖的对象就会得到  
 通知并且自动更新。  
-# 2 Decorator (装饰者模式)  
+# 2 [Decorator (装饰者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Decorator)  
 装饰者模式定义了动态的将责任添加到对象，相对于继承，装饰者模式提供了更易于扩展的方式。
 
 
