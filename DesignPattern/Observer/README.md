@@ -8,4 +8,4 @@
 
 应用场景： 某个实例的变化将影响其他多个对象。  
 
-C#：IObservable<<T>>  IObserver<<T>>  IObserver
+C#：`IObservable<T>  IObserver<T>  IObserver`
