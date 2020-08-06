@@ -6,5 +6,4 @@ Head First 设计模式学习笔记
 [daijun](https://github.com/appeondotnet/learning-design/tree/daijun)  
 [sczhh](https://github.com/appeondotnet/learning-design/tree/hehui)  
 [pengsongkun](https://github.com/appeondotnet/learning-design/tree/pengsongkun)  
-[Mniwyl](https://github.com/appeondotnet/learning-design/tree/wenyule)  
 [sky](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong)
