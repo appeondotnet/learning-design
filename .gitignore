@@ -11,3 +11,6 @@
 /Src/Design/FactoryMethod/obj
 /Src/Design/FactoryMethod/bin/Debug/netcoreapp3.1
 *.user
+/Src/Design/SignletonPattern/bin/Debug/netcoreapp3.1
+/Src/Design/SignletonPattern/obj
+*.stackdump
