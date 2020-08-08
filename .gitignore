@@ -8,3 +8,6 @@
 /Src/Design/Observer/bin/Debug/netcoreapp3.1
 /Src/Design/Strategy/obj
 /Src/Design/Strategy/bin/Debug/netcoreapp3.1
+/Src/Design/FactoryMethod/obj
+/Src/Design/FactoryMethod/bin/Debug/netcoreapp3.1
+*.user

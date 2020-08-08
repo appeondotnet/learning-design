@@ -1,6 +1,12 @@
 # learning-design  
 
 Head First 设计模式学习笔记  
+1 [Strategy (策略模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Strategy)  
+2 [Observer (观察者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Observer)  
+3 [Decorator (装饰者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Decorator)  
+4 [Factory Method (工厂方法)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/FactoryMethod)  
+5 [Singleton Pattern (单例模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/SingletonPattern)  
+  
 # OO基础  
 1 封装  
 2 继承  
@@ -13,13 +19,18 @@ Head First 设计模式学习笔记
 3 多用组合， 少用继承  
 4 为实现松耦合设计而努力  
 5 对扩展开放， 对修改关闭  
+6 依赖倒置，高层组件不依赖低层组件，高层或者低层组件不依赖具体实现，而是依赖抽象。
 
 # 1 [Strategy (策略模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Strategy)  
 策略模式定义了算法族，对各个算法进行了封装，让它们可以相互交换，使算法的改变独立于调用的用户  
 # 2 [Observer (观察者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Observer)  
 观察者模式定义了一对多的对象依赖关系，这样一来，如果一个对象的状态发生改变，其它依赖的对象就会得到  
 通知并且自动更新。  
-# 2 [Decorator (装饰者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Decorator)  
-装饰者模式定义了动态的将责任添加到对象，相对于继承，装饰者模式提供了更易于扩展的方式。
+# 3 [Decorator (装饰者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Decorator)  
+装饰者模式定义了动态的将责任添加到对象，相对于继承，装饰者模式提供了更易于扩展的方式。  
+# 4 [Factory Method (工厂方法)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/FactoryMethod)  
+工厂方法定义了一个创建对象的接口，让子类决定创建具体的类型，这样就把类的创建推迟到子类。
+抽象工厂定义了一组创建对象的接口，用于创建相关或依赖对象的家族，这样在创建对象的时候不需要指定具体类型。
+# 5 [Singleton Pattern (单例模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/SingletonPattern) 
 
 
