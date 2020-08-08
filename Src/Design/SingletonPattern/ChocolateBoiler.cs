@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace SignletonPattern
+namespace SingletonPattern
 {
     public class ChocolateBoiler
     {

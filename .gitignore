@@ -14,3 +14,5 @@
 /Src/Design/SignletonPattern/bin/Debug/netcoreapp3.1
 /Src/Design/SignletonPattern/obj
 *.stackdump
+/Src/Design/SingletonPattern/obj
+/Src/Design/SingletonPattern/bin/Debug/netcoreapp3.1
