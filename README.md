@@ -5,7 +5,8 @@ Head First 设计模式学习笔记。
 [策略模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Strategy)  
 [观察者模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Observer)  
 [装饰者模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Decorator)  
-[工厂模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Factory)
+[工厂模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Factory)  
+[单例模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Singleton)
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
