@@ -8,9 +8,15 @@
 有的对象可能会比较耗资源，如果在程序一开始就初始化，可能整个程序运行过程中都不会使用到，造成资源浪费。
 
 ## 怎么处理并发问题
-* 利用类静态构造函数
-* 同步方法
-* 加锁，一般分为懒汉式和双检索，通常推荐使用双检索，降低加锁带来的性能损耗。
+* [利用类静态构造函数](https://github.com/appeondotnet/learning-design/blob/721aae3043f666cc9e0e9fda00683abefe627e6a/src/Singleton/Choc-O-Holic/ChocolateBoiler1.cs#L7)
+
+* [同步方法](https://github.com/appeondotnet/learning-design/blob/721aae3043f666cc9e0e9fda00683abefe627e6a/src/Singleton/Choc-O-Holic/ChocolateBoiler1.cs#L13)
+
+* 加锁，一般分为
+[懒汉式](https://github.com/appeondotnet/learning-design/blob/721aae3043f666cc9e0e9fda00683abefe627e6a/src/Singleton/Choc-O-Holic/ChocolateBoiler2.cs#L14)
+和
+[双检锁](https://github.com/appeondotnet/learning-design/blob/721aae3043f666cc9e0e9fda00683abefe627e6a/src/Singleton/Choc-O-Holic/ChocolateBoiler3.cs#L14)
+，通常推荐使用双检索，降低加锁带来的性能损耗。
 
 ## 其他
 其实有的软件只能运行一个实例，也能算是一种单例。
