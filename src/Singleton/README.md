@@ -8,7 +8,7 @@
 有的对象可能会比较耗资源，如果在程序一开始就初始化，可能整个程序运行过程中都不会使用到，造成资源浪费。
 
 ## 怎么处理并发问题
-* [利用类静态构造函数](https://github.com/appeondotnet/learning-design/blob/721aae3043f666cc9e0e9fda00683abefe627e6a/src/Singleton/Choc-O-Holic/ChocolateBoiler1.cs#L7)
+* [利用类静态构造函数](https://github.com/appeondotnet/learning-design/blob/9fc01f327929aaffa145f26749f50e4ff711e47b/src/Singleton/Choc-O-Holic/ChocolateBoiler.cs#L5)
 
 * [同步方法](https://github.com/appeondotnet/learning-design/blob/721aae3043f666cc9e0e9fda00683abefe627e6a/src/Singleton/Choc-O-Holic/ChocolateBoiler1.cs#L13)
 
