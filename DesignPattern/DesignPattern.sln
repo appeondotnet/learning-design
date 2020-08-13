@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{D5373165-D9B7-428E-BD48-14DA9F63BAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{633B6741-2330-43B4-8EB8-2E435A545931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{633B6741-2330-43B4-8EB8-2E435A545931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{143DEAE2-3163-412C-83D3-6B17F011CF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{143DEAE2-3163-412C-83D3-6B17F011CF5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{919988E1-D32D-483F-AAB2-F1EBAD30597A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{143DEAE2-3163-412C-83D3-6B17F011CF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143DEAE2-3163-412C-83D3-6B17F011CF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143DEAE2-3163-412C-83D3-6B17F011CF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919988E1-D32D-483F-AAB2-F1EBAD30597A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919988E1-D32D-483F-AAB2-F1EBAD30597A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919988E1-D32D-483F-AAB2-F1EBAD30597A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919988E1-D32D-483F-AAB2-F1EBAD30597A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
