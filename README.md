@@ -6,6 +6,7 @@ Head First 设计模式学习笔记
 3 [Decorator (装饰者模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Decorator)  
 4 [Factory Method (工厂方法)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/FactoryMethod)  
 5 [Singleton Pattern (单例模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/SingletonPattern)  
+6 [Command Pattern (命令模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/CommandPattern)  
   
 # OO基础  
 1 封装  
@@ -32,6 +33,8 @@ Head First 设计模式学习笔记
 工厂方法定义了一个创建对象的接口，让子类决定创建具体的类型，这样就把类的创建推迟到子类。  
 抽象工厂定义了一组创建对象的接口，用于创建相关或依赖对象的家族，这样在创建对象的时候不需要指定具体类型。
 # 5 [Singleton Pattern (单例模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/SingletonPattern)  
-单例模式确保一个类只有一个实例，并且提供一个全局访问点。
+单例模式确保一个类只有一个实例，并且提供一个全局访问点。  
+# 6 [Command Pattern (命令模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/CommandPattern)  
+命令模式把请求封装成对象，这样可以让不同的请求，队列或者日志请求来参数化其它对象，还支持撤销操作。
 
 

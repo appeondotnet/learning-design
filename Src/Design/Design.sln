@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{46D915D2-4ACC-4D9F-971B-0A2CE2FDE07B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{AF129A73-D3C8-418C-B811-82BC636D60D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{AF129A73-D3C8-418C-B811-82BC636D60D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{ABD05FB4-E98D-45BA-9D40-E06169778B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{ABD05FB4-E98D-45BA-9D40-E06169778B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{3E3C6AB5-055E-4647-8B31-A218E158D231}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{ABD05FB4-E98D-45BA-9D40-E06169778B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABD05FB4-E98D-45BA-9D40-E06169778B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABD05FB4-E98D-45BA-9D40-E06169778B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3C6AB5-055E-4647-8B31-A218E158D231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3C6AB5-055E-4647-8B31-A218E158D231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3C6AB5-055E-4647-8B31-A218E158D231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3C6AB5-055E-4647-8B31-A218E158D231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
