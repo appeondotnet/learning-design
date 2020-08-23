@@ -2,9 +2,10 @@
 Head First 设计模式学习笔记
 
 ## 目录
-[codeping](https://github.com/appeondotnet/learning-design/tree/dudeping)  
+[dudeping](https://github.com/appeondotnet/learning-design/tree/dudeping)  
 [daijun](https://github.com/appeondotnet/learning-design/tree/daijun)  
-[sczhh](https://github.com/appeondotnet/learning-design/tree/hehui)  
+[hehui](https://github.com/appeondotnet/learning-design/tree/hehui)  
 [pengsongkun](https://github.com/appeondotnet/learning-design/tree/pengsongkun)  
-[Mniwyl](https://github.com/appeondotnet/learning-design/tree/wenyule)  
-[sky](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong)
+[zhuxiaoxiong](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong)  
+[zhangguangjian](https://github.com/appeondotnet/learning-design/tree/zhangguangjian)  
+[xudasheng](https://github.com/appeondotnet/learning-design/tree/xudasheng)
