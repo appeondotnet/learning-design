@@ -6,7 +6,9 @@ Head First 设计模式学习笔记。
 [观察者模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Observer)  
 [装饰者模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Decorator)  
 [工厂模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Factory)  
-[单例模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Singleton)
+[单例模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Singleton)  
+[适配器模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Adapter)  
+[外观模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Facade)
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
@@ -24,7 +26,15 @@ Head First 设计模式学习笔记。
     - 类应该对扩展开放，对修改关闭；
     - 即：允许系统在不修改代码的情况下，对功能扩展；通过提供扩展的方法来保护代码代码免于被修改。
 * 要依赖抽象，不要依赖具体类
+* 最少知道原则：不要让太多的类耦合在一起，以免修改系统中一部分，会影响到其他部分。
 
 ## 定理
 ### Change
 > 不管当初软件设计得有多好，一段时间后，总是需要成长与改变，否则软件就会“死亡”。
+
+### 最少知道原则
+在任何对象的方法内，调用的范围：
+- 该对象本身
+- 被当作方法参数而传递的对象
+- 此方法所创建或者实例化的任何对象
+- 该对象的任何成员
