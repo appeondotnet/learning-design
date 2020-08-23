@@ -7,8 +7,7 @@ Head First 设计模式学习笔记。
 [装饰者模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Decorator)  
 [工厂模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Factory)  
 [单例模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Singleton)  
-[命令模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Command)
-[单例模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Singleton)  
+[命令模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Command)  
 [适配器模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Adapter)  
 [外观模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Facade)
 
