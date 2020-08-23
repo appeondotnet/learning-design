@@ -18,3 +18,7 @@
 /Src/Design/SingletonPattern/bin/Debug/netcoreapp3.1
 /Src/Design/CommandPattern/bin/Debug/netcoreapp3.1
 /Src/Design/CommandPattern/obj
+/Src/Design/AdapterPattern/bin/Debug/netcoreapp3.1
+/Src/Design/AdapterPattern/obj
+/Src/Design/FacadePattern/bin/Debug/netcoreapp3.1
+/Src/Design/FacadePattern/obj
