@@ -9,7 +9,8 @@ Head First 设计模式学习笔记。
 [单例模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Singleton)  
 [命令模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Command)  
 [适配器模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Adapter)  
-[外观模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Facade)
+[外观模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Facade)  
+[模板方法模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Template)
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
@@ -28,6 +29,7 @@ Head First 设计模式学习笔记。
     - 即：允许系统在不修改代码的情况下，对功能扩展；通过提供扩展的方法来保护代码代码免于被修改。
 * 要依赖抽象，不要依赖具体类
 * 最少知道原则：不要让太多的类耦合在一起，以免修改系统中一部分，会影响到其他部分。
+* 别调用我，我会调用你：由超类主控一切，当他们需要的时候自然回去调用子类。
 
 ## 定理
 ### Change
