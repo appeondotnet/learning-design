@@ -22,3 +22,5 @@
 /Src/Design/AdapterPattern/obj
 /Src/Design/FacadePattern/bin/Debug/netcoreapp3.1
 /Src/Design/FacadePattern/obj
+/Src/Design/TemplateMethodPattern/obj
+/Src/Design/TemplateMethodPattern/bin/Debug/netcoreapp3.1

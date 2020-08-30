@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "Singlet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{3E3C6AB5-055E-4647-8B31-A218E158D231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{5427D8C6-CE9D-4637-8972-539DC4C7D23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{5427D8C6-CE9D-4637-8972-539DC4C7D23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{0EC7CA97-CB5A-469D-8078-4CECFFFB61BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{0EC7CA97-CB5A-469D-8078-4CECFFFB61BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{E2BD33B0-41F0-4F03-AEB2-A845AE5EFD8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{0EC7CA97-CB5A-469D-8078-4CECFFFB61BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC7CA97-CB5A-469D-8078-4CECFFFB61BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC7CA97-CB5A-469D-8078-4CECFFFB61BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BD33B0-41F0-4F03-AEB2-A845AE5EFD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BD33B0-41F0-4F03-AEB2-A845AE5EFD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BD33B0-41F0-4F03-AEB2-A845AE5EFD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BD33B0-41F0-4F03-AEB2-A845AE5EFD8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

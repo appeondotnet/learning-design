@@ -9,6 +9,7 @@ Head First 设计模式学习笔记
 6 [Command Pattern (命令模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/CommandPattern)  
 7 [Adapter Pattern (适配器模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/AdapterPattern)  
 8 [Facade Pattern (外观模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/FacadePattern)  
+9 [TemplateMethod Pattern (模板方法)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/TemplateMethodPattern)  
   
 # OO基础  
 1 封装  
@@ -23,7 +24,8 @@ Head First 设计模式学习笔记
 4 为实现松耦合设计而努力  
 5 对扩展开放， 对修改关闭  
 6 依赖倒置，高层组件不依赖低层组件，高层或者低层组件不依赖具体实现，而是依赖抽象。  
-7 最少知道原则  
+7 最少知道原则，和直接朋友交流  
+8 好莱坞原则，高层模块会在需要的时候调用低层模块，而不是让低层模块调用  
 
 # 1 [Strategy (策略模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/Strategy)  
 策略模式定义了算法族，对各个算法进行了封装，让它们可以相互交换，使算法的改变独立于调用的用户  
@@ -43,5 +45,7 @@ Head First 设计模式学习笔记
 适配器模式将一个类的接口，转换其接口让其适应客户的接口，在不改变类的情况下，让原则不相容的两个类可以合作无间。
 # 8 [Facade Pattern (外观模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/CommandPattern)    
  外观模式提供了一个统一接口，用于访问子系统的一群接口，外观模式定义了一个高层接口，让子系统更加容易使用。
+# 9 [TemplateMethod Pattern (模板方法)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/TemplateMethodPattern)  
+模板方法定义了一个方法提供算法的骨架，让算法的一个步骤或者多个步骤延迟到子类，模板方法让子类不改变算法结构的情况下去实现其中的一些步骤。 
 
 
