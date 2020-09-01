@@ -26,3 +26,5 @@ Head First 设计模式学习笔记
 [适配器模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Adapter)  
 [外观模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Facade)  
 [模板方法模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/TemplateMethod)  
+[迭代器模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Iterator)  
+[组合模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Composite)  
