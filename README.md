@@ -37,3 +37,7 @@
 
 [模板方法模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/TemplateMethod)
 
+[迭代器模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/Iterator)
+
+[组合模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/Composite)
+
