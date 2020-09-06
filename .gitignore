@@ -24,3 +24,7 @@
 /Src/Design/FacadePattern/obj
 /Src/Design/TemplateMethodPattern/obj
 /Src/Design/TemplateMethodPattern/bin/Debug/netcoreapp3.1
+/Src/Design/CompositePattern/bin/Debug/netcoreapp3.1
+/Src/Design/CompositePattern/obj
+/Src/Design/IteratorPattern/bin/Debug/netcoreapp3.1
+/Src/Design/IteratorPattern/obj
