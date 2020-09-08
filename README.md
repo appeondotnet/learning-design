@@ -28,3 +28,4 @@ Head First 设计模式学习笔记
 [模板方法模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/TemplateMethod)  
 [迭代器模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Iterator)  
 [组合模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Composite)  
+[状态模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/State)  
