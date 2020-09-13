@@ -41,3 +41,5 @@
 
 [组合模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/Composite)
 
+[状态模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/State)
+
