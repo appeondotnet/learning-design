@@ -10,7 +10,9 @@ Head First 设计模式学习笔记。
 [命令模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Command)  
 [适配器模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Adapter)  
 [外观模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Facade)  
-[模板方法模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Template)
+[模板方法模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Template)  
+[迭代器模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Iterator)  
+[组合模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Composite)  
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
@@ -30,6 +32,7 @@ Head First 设计模式学习笔记。
 * 要依赖抽象，不要依赖具体类
 * 最少知道原则：不要让太多的类耦合在一起，以免修改系统中一部分，会影响到其他部分。
 * 别调用我，我会调用你：由超类主控一切，当他们需要的时候自然回去调用子类。
+* 单一职责：一个类应该之哟一个引起变化的原因
 
 ## 定理
 ### Change
@@ -41,3 +44,6 @@ Head First 设计模式学习笔记。
 - 被当作方法参数而传递的对象
 - 此方法所创建或者实例化的任何对象
 - 该对象的任何成员
+
+## 内聚
+当一个模块或一个类被设计成只支持一组相关功能时，我们说它具有高内聚，反之，当被设计成支持一组不相关的功能时，我们说它具有低内聚。
