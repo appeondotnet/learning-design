@@ -13,7 +13,8 @@ Head First 设计模式学习笔记
 10 [ITerator Pattern (迭代器模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/ITeratorPattern)  
 11 [Composite Pattern (组合模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/CompositePattern)    
 12 [State Pattern (状态模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/StatePattern)   
-  
+13 [Proxy Pattern (代码模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/ProxyPattern)  
+
 # OO基础  
 1 封装  
 2 继承  
@@ -57,6 +58,9 @@ Head First 设计模式学习笔记
 组合模式允许你将对象组成树形结构来表现"整体与部分"的层次结构，组合模式让客户以一致的方式处理个别对象和组合对象。  
 # 12 [State Pattern (状态模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/StatePattern)     
 状态模式允许对象在内部状态改变时改变行为，这看起来就改变了类一样.  
+# 13 [Proxy Pattern (状态模式)](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong/Src/Design/ProxyPattern)     
+代理模式为对象提供一个替身或点位符以控制对象的访问.  
+  
 
 
 
