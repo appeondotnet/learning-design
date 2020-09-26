@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePatt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{E2BD33B0-41F0-4F03-AEB2-A845AE5EFD8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{822C6098-F905-4B67-939A-A1C1B6D1CECA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{822C6098-F905-4B67-939A-A1C1B6D1CECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{597B80DF-D5DE-4037-B436-E22D06E0D22C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{597B80DF-D5DE-4037-B436-E22D06E0D22C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{C66CF6F1-16C6-42A9-B649-CB445CC0001A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{597B80DF-D5DE-4037-B436-E22D06E0D22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597B80DF-D5DE-4037-B436-E22D06E0D22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{597B80DF-D5DE-4037-B436-E22D06E0D22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66CF6F1-16C6-42A9-B649-CB445CC0001A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66CF6F1-16C6-42A9-B649-CB445CC0001A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66CF6F1-16C6-42A9-B649-CB445CC0001A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66CF6F1-16C6-42A9-B649-CB445CC0001A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
