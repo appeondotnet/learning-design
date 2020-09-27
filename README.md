@@ -30,3 +30,4 @@ Head First 设计模式学习笔记
 [组合模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Composite)  
 [状态模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/State)  
 [代理模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Proxy)  
+[中介者模式](https://github.com/appeondotnet/learning-design/tree/daijun/DesignPattern/Mediator)  
