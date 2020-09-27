@@ -7,7 +7,7 @@
 
 * 参与者
   > Context：状态管理器
-  >> 定义对Client感兴趣的接口
+  >> 定义对Client感兴趣的接口  
   >> 维持一个ConcreteState子类的实例，这个实例定义当前状态  
 
   > State：状态，定义一个接口以封装与Context的一个特定状态相关的行为  
