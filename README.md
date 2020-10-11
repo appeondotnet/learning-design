@@ -8,4 +8,3 @@ Head First 设计模式学习笔记
 [pengsongkun](https://github.com/appeondotnet/learning-design/tree/pengsongkun)  
 [zhuxiaoxiong](https://github.com/appeondotnet/learning-design/tree/zhuxiaoxiong)  
 [zhangguangjian](https://github.com/appeondotnet/learning-design/tree/zhangguangjian)  
-[xudasheng](https://github.com/appeondotnet/learning-design/tree/xudasheng)
