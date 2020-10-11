@@ -14,6 +14,8 @@ Head First 设计模式学习笔记。
 [迭代器模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Iterator)  
 [组合模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Composite)  
 [状态模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/State)  
+[代理模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Proxy)  
+
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
