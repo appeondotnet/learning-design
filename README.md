@@ -15,12 +15,14 @@ Head First 设计模式学习笔记。
 [组合模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Composite)  
 [状态模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/State)  
 [代理模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Proxy)  
+[组合模式](https://github.com/appeondotnet/learning-design/tree/dudeping/src/Compound)  
 
 
 ## 精神
 * 系统中某部分改变不会影响其他部分
 * 使用共享词汇能让更少的词汇做更充分的沟通
 * 把注意力放在设计中最有可能改变的地方，而不是每个地方
+* 无法创建自己的复合模式，就无法理解组合模式的好处
 
 ## 原则
 * 封装变化。
