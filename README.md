@@ -43,3 +43,8 @@
 
 [状态模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/State)
 
+[代理模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/Proxy)
+
+[复合模式](https://github.com/appeondotnet/learning-design/tree/zhangguangjian/src/Compound)
+
+
