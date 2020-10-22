@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{A2B17475-AE00-4080-9BDF-9628FE752B2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{77F3CFB1-051E-4BAE-8A30-8A252C244318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{77F3CFB1-051E-4BAE-8A30-8A252C244318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{AC3E782C-48B0-4800-BE75-9D763456CDBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{AC3E782C-48B0-4800-BE75-9D763456CDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{B1F0A4A5-E324-415C-8C7A-389085617F3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{AC3E782C-48B0-4800-BE75-9D763456CDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3E782C-48B0-4800-BE75-9D763456CDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3E782C-48B0-4800-BE75-9D763456CDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F0A4A5-E324-415C-8C7A-389085617F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F0A4A5-E324-415C-8C7A-389085617F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F0A4A5-E324-415C-8C7A-389085617F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F0A4A5-E324-415C-8C7A-389085617F3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
